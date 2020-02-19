@@ -2,5 +2,5 @@
 42 Project to recreate printf
 
 # Use
-  Make
+  Make &&
   gcc main.c libftprintf.a
