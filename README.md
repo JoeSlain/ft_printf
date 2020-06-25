@@ -1,4 +1,4 @@
-# ft_printf
+# ft_printf - 42 project
 42 Project to recreate printf
 
 # Use
