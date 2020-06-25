@@ -1,5 +1,5 @@
 # ft_printf - 42 project
-42 Project to recreate printf
+C project to recreate printf function
 
 # Use
   Make &&
