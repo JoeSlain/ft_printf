@@ -6,7 +6,7 @@
 /*   By: jcueille <jcueille@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/28 15:09:54 by jcueille          #+#    #+#             */
-/*   Updated: 2020/02/06 18:55:16 by jcueille         ###   ########.fr       */
+/*   Updated: 2021/10/30 16:57:17 by jcueille         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ void	ft_affichep(int len, int len_prec, char **s, void *n)
 
 	write(1, "0x", 2);
 	i = -1;
-	isneg = n < 0 ? 1 : 0;
-	if (n < 0)
+	isneg = *(int *)n < 0 ? 1 : 0;
+	if (*(int *)n < 0)
 		write(1, "-", 1);
 	while (++i < len_prec - len)
 		write(1, "0", 1);
